@@ -10,6 +10,9 @@ import Footer from "./components/Footer";
 import Cart from "./components/cart/Cart";
 import ProductPage from "./components/product-page/ProductPage";
 
+import Login from "./components/login-signup/login";
+import Signup from "./components/login-signup/signup";
+
 export const Context = createContext();
 
 function App() {
@@ -18,7 +21,7 @@ function App() {
 
     return (
         <Context.Provider value={[cartCounter, setCartCounter]}>
-            <AnnouncementBar title="Free Shipping in Europe" />
+            <AnnouncementBar title="Free Shipping in India" />
             <Header navigationItems={navigationItems} />
 
             <Router>
@@ -73,6 +76,11 @@ function App() {
                         }
                     />
                     <Route path="/products/:id" element={<ProductPage />} />
+
+                    {/* New routes for login and signup */}
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/signup" element={<Signup />} />
+
                 </Routes>
             </Router>
 

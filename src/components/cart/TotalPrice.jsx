@@ -23,7 +23,7 @@ function TotalPrice({ cartItems }) {
         <>
             <h2 className="mt-8 text-lg">
                 Subtotal:
-                <span className="pl-2">${totalPrice}</span>
+                <span className="pl-2">₹{totalPrice}</span>
             </h2>
             <p className="mt-2 text-sm">
                 Taxes and shipping calculated at checkout

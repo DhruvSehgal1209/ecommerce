@@ -97,7 +97,7 @@ function Footer() {
 
                 <div className="sm:flex sm:justify-between text-center sm:text-left">
                     <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-                        © 2023 Bella Fashion. All Rights Reserved.
+                        © 2025 Fashionable. All Rights Reserved.
                     </span>
                 </div>
             </div>

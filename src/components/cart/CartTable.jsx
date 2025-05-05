@@ -113,10 +113,10 @@ function CartTable({ cartItems, setCartItems }) {
                                     {product.discounted_price ? (
                                         <div>
                                             <span className="pt-2 line-through mr-2">
-                                                ${product.price}
+                                                ₹{product.price}
                                             </span>
                                             <span className="pt-2 text-emerald-600">
-                                                ${product.discounted_price}
+                                                ₹{product.discounted_price}
                                             </span>
                                         </div>
                                     ) : (
@@ -155,7 +155,7 @@ function CartTable({ cartItems, setCartItems }) {
 
                         <td className="py-10 text-right">
                             <span className="text-sm sm:text-lg pl-4">
-                                ${product.total_price}
+                                ₹{product.total_price}
                             </span>
                         </td>
                     </tr>

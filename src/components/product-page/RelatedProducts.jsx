@@ -69,16 +69,16 @@ function RelatedProducts({ category }) {
                                 {product.discounted_price ? (
                                     <div className="flex flex-col sm:flex-row float-left pt-3 pb-3">
                                         <span className="text-base line-through pr-2">
-                                            ${product.price}
+                                            ₹{product.price}
                                         </span>
 
                                         <span className="text-emerald-600 text-xl">
-                                            ${product.discounted_price}
+                                            ₹{product.discounted_price}
                                         </span>
                                     </div>
                                 ) : (
                                     <span className="text-xl pt-3 pb-3">
-                                        ${product.price}
+                                        ₹{product.price}
                                     </span>
                                 )}
                             </div>

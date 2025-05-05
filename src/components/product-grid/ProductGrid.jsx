@@ -161,10 +161,10 @@ function ProductGrid({ category }) {
                                             {product.discounted_price ? (
                                                 <div className="float-left">
                                                     <span className="text-base line-through pr-2">
-                                                        ${product.price}
+                                                        ₹{product.price}
                                                     </span>
                                                     <span className="text-emerald-600 text-lg">
-                                                        $
+                                                        ₹
                                                         {
                                                             product.discounted_price
                                                         }
@@ -172,7 +172,7 @@ function ProductGrid({ category }) {
                                                 </div>
                                             ) : (
                                                 <span className="text-lg">
-                                                    ${product.price}
+                                                    ₹{product.price}
                                                 </span>
                                             )}
 

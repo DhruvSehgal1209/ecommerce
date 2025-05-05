@@ -59,16 +59,16 @@ function ProductPage() {
                                     {product.discounted_price ? (
                                         <div className="float-left pt-3 pb-3 border-b mb-2">
                                             <span className="line-through pr-2 text-lg">
-                                                ${product.price}
+                                                ₹{product.price}
                                             </span>
 
                                             <span className="text-emerald-600 text-xl">
-                                                ${product.discounted_price}
+                                                ₹{product.discounted_price}
                                             </span>
                                         </div>
                                     ) : (
                                         <span className="pt-3 pb-3 border-b mb-2 text-xl">
-                                            ${product.price}
+                                            ₹{product.price}
                                         </span>
                                     )}
 
