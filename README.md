@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ReactJS Ecommerce Site
 
 This is a full stack e-commerce site built using Vite React, Tailwind CSS, Express REST API alongside a MySQL database.
@@ -58,3 +59,6 @@ $ npm start
 ## License
 
 This project is released under the GNU General Public License v3.
+=======
+# ecommerce
+>>>>>>> 6e91f79afe25e5123c7659da80947761def69ef5
